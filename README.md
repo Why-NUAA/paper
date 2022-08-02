@@ -15,7 +15,3 @@ A method for epilepsy diagnosis based on multi-modal brain images.
 - Install pytorch >= 1.8.0
 - Others
   - numpy, scipy, sklearn, einops, etc.
-
-## Data format
-- fMRI: 90 ROIs * 240 Timepoints
-- DTI: 90 ROIs * 90 ROIs 
