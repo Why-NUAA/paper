@@ -20,7 +20,7 @@ def train(model, criterions, optimizer, train_loader, valid_loader, fold, epochs
     for epoch in range(epochs):
         start = time.time()
         model.train()
-        epoch_loss, CE_loss, triplet_loss = 0, 0, 0
+        epoch_loss = 0
 
         # train
         for i, (inputs, labels) in enumerate(train_loader):
